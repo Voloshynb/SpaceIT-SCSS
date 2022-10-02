@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Початок SCSS */
+
+.menu__middle, .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav .nav__text {
+  font-size: 20px;
+  text-decoration: none;
+  color: aqua;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  background-color: black;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav .nav__space {
+  margin: 30px 30px;
+}
+.menu__middle {
+  margin-right: 100px;
+}
+
+.text__news {
+  font-size: 30px;
+  margin-left: 50px;
+  color: aqua;
+}
+
+/* Кінець SCSS */
+
+.head {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 23px;
+  text-align: center;
+  background-color: red;
+  color: whitesmoke;
+  position: relative;
+}
+
+.body {
+  background-color: white;
+}
+
+.description_block {
+  text-align: center;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  position: absolute;
+  top: 23%;
+  left: 756px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 613px;
+  height: 120px;
+  background: white;
+}
+
+.img {
+  margin: 0px auto;
+  padding: 15px;
+  max-width: 600px;
+}
+
+.bottom_second {
+  background-color: whitesmoke;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: black;
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.rights {
+  text-align: center;
+  background-color: black;
+  color: aqua;
+}
+
+.list {
+  margin: 25px;
+}
+
+.text_list {
+  margin: 5px;
+}
